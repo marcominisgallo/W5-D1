@@ -236,7 +236,7 @@ aside h2 {
         text-align: start;
         height: auto;
         padding: 0;
-        height: 5em;
+        height: 7em;
     }
     header div{
         display: inline-block;
@@ -305,6 +305,8 @@ aside h2 {
         margin-right: auto;
         height: 10em;
         text-align: start;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     aside{
         text-align: center;

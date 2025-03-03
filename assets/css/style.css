@@ -178,3 +178,147 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+/* medium devices */
+
+@media screen and (min-width: 768px) {
+ .li-nav {
+    display: inline;
+   }
+
+body {
+    font-size: 1.7em;
+
+}
+
+article {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
+   article h1 {
+    font-size: 3.6em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+input {
+    width: 60%;
+    height: 3em;
+}
+
+button {
+    height: 3em; 
+}
+
+aside h2 {
+    font-size: 2em;
+}
+    
+}
+
+/* large devices*/
+
+@media screen and (min-width: 1200px) {
+    
+    body {
+        font-size: 2.3em;
+    }
+    
+    header {
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 1.5em;
+        text-align: start;
+        height: auto;
+        padding: 0;
+        height: 5em;
+    }
+    header div{
+        display: inline-block;
+        width: 60%;
+        text-align: start;
+        margin-right: 2em;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    header div img{
+        display: inline-block;
+        margin-bottom: auto;
+        height: 3em;
+        margin-top: 1em;
+    }
+    header div p{
+        display: inline-block;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+    nav {
+        display: inline-block;
+        width: 30%;
+        text-align: end;
+    }
+
+    main {
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-top: 1.5em;
+    }
+
+    main h1 {
+        font-size: 4.5em;
+    }
+
+    article iframe {
+        width: 45%;
+        display: inline-block;
+        margin-bottom: auto;
+        margin-top: auto;
+        height: 10em;
+        margin-top: 1.5em;
+    }
+
+    article section {
+        width: 45%;
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 20px;
+    }
+
+    footer{
+        margin-left: 5.5em;
+        margin-right: 5.5em;
+        /*height: 15em;*/
+    }
+
+    aside div {
+        display: inline-block;
+        width: 32%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 10em;
+        text-align: start;
+    }
+    aside{
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    footer p {
+        margin-top: 2em;
+        margin-bottom: 3.5em;
+    }
+
+    footer address {
+        margin-left: 20em;
+        margin-right: 20em;
+    }
+    
+}
